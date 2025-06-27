@@ -30,6 +30,15 @@ Divide os prédios ao meio recursivamente e faz merge de dois skylines mantendo 
 
 Usa o algoritmo de seleção determinística linear para encontrar o k-ésimo maior elemento sem ordenar todo o array, garantindo O(n) no pior caso, usando comparação baseada em tamanho e ordem lexicográfica das strings.
 
+### 🔗 [493: Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
+Resumo: Dado um array de inteiros, contar o número de pares (i, j) onde i < j e nums[i] > 2 * nums[j].
+
+- Nível de dificuldade: Hard
+
+### 🧠 Algoritmo utilizado: Merge Sort com contagem de pares especiais (variação da contagem de inversões).
+
+Usa a técnica de dividir e conquistar para ordenar o array enquanto conta os pares que satisfazem a condição nums[i] > 2 * nums[j]. O algoritmo funciona em O(n log n), realizando a contagem antes da mesclagem das metades ordenadas.
+
 ---
 ## Screenshots
 - Problema 218
@@ -37,6 +46,9 @@ Usa o algoritmo de seleção determinística linear para encontrar o k-ésimo ma
 
 - Problema 1985
 <img width="734" alt="621" src="screenshots/1985.png">
+
+- Problema 493
+<img width="734" alt="621" src="screenshots/493.png">
 
 ## Instalação 
 
