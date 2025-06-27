@@ -10,20 +10,33 @@
 | 20/0073184 |  Mateus Fidelis Marinho Maia |
 
 ## Sobre 
-Para desenvolver o conteúdo abordado no tópico de Dividir e Conquistar, a dupla selecionou alguns exercícios em um juiz online - o LeetCode -, sendo eles, dois de nível difícil, um de nível médio e um de nível fácil. Para obter mais informações sobre os enunciados propostos, basta clicar no link que aparece no título de cada um.
+Para desenvolver o conteúdo abordado no tópico de Dividir e Conquistar, a dupla selecionou alguns exercícios em um juiz online - o LeetCode -, sendo eles, de nível médio ou difícil. Para obter mais informações sobre os enunciados propostos, basta clicar no link que aparece no título de cada um.
 
-### 🔗 [Exemplo]()
- Resumo: 
-- Nível de dificuldade: .
+### 🔗 [218: The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/)
+ Resumo: Dado uma lista de prédios (com início, fim e altura), determinar os pontos-chave do contorno do skyline (horizonte da cidade) visto de longe, removendo sobreposições e mantendo apenas os pontos onde a altura muda.
 
-### 🧠 Algoritmo utilizado:
+- Nível de dificuldade: Difícil
 
-  Bla Bla Bla.
+### 🧠 Algoritmo utilizado: Adaptação do par de pontos mais próximos. 
+
+Divide os prédios ao meio recursivamente e faz merge de dois skylines mantendo a maior altura em cada x, evitando pontos redundantes.
+
+### 🔗 [1985: Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)
+ Resumo:Dado um array de strings representando inteiros grandes, encontrar o k-ésimo maior inteiro sem utilizar sort completo, considerando que os inteiros podem ser muito grandes para conversão direta.
+
+- Nível de dificuldade: Médio
+
+### 🧠 Algoritmo utilizado: Mediana das medianas.
+
+Usa o algoritmo de seleção determinística linear para encontrar o k-ésimo maior elemento sem ordenar todo o array, garantindo O(n) no pior caso, usando comparação baseada em tamanho e ordem lexicográfica das strings.
 
 ---
 ## Screenshots
-- Problema x
-<img width="734" alt="621" src="">
+- Problema 218
+<img width="734" alt="621" src="screenshots/218.png">
+
+- Problema 1985
+<img width="734" alt="621" src="screenshots/1985.png">
 
 ## Instalação 
 
