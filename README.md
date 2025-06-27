@@ -21,6 +21,8 @@ Para desenvolver o conteúdo abordado no tópico de Dividir e Conquistar, a dupl
 
 Divide os prédios ao meio recursivamente e faz merge de dois skylines mantendo a maior altura em cada x, evitando pontos redundantes.
 
+---
+
 ### 🔗 [1985: Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)
  Resumo:Dado um array de strings representando inteiros grandes, encontrar o k-ésimo maior inteiro sem utilizar sort completo, considerando que os inteiros podem ser muito grandes para conversão direta.
 
@@ -30,16 +32,30 @@ Divide os prédios ao meio recursivamente e faz merge de dois skylines mantendo 
 
 Usa o algoritmo de seleção determinística linear para encontrar o k-ésimo maior elemento sem ordenar todo o array, garantindo O(n) no pior caso, usando comparação baseada em tamanho e ordem lexicográfica das strings.
 
+---
+
 ### 🔗 [493: Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)
 Resumo: Dado um array de inteiros, contar o número de pares (i, j) onde i < j e nums[i] > 2 * nums[j].
 
-- Nível de dificuldade: Hard
+- Nível de dificuldade: Difícil
 
 ### 🧠 Algoritmo utilizado: Merge Sort com contagem de pares especiais (variação da contagem de inversões).
 
 Usa a técnica de dividir e conquistar para ordenar o array enquanto conta os pares que satisfazem a condição nums[i] > 2 * nums[j]. O algoritmo funciona em O(n log n), realizando a contagem antes da mesclagem das metades ordenadas.
 
 ---
+
+### 🔗 [912: Sort an Array](https://leetcode.com/problems/sort-an-array/)
+Resumo: Dado um array de inteiros, ordenar o array em ordem crescente utilizando uma abordagem eficiente de ordenação.
+
+- Nível de dificuldade: Médio
+
+### 🧠 Algoritmo utilizado: Merge Sort (Dividir e Conquistar).
+
+O algoritmo divide recursivamente o array ao meio, ordena cada metade e, em seguida, realiza a mesclagem das duas metades ordenadas para formar o array final ordenado. Essa técnica tem complexidade O(n log n) no pior caso, tornando-se eficiente para grandes entradas.
+
+---
+
 ## Screenshots
 - Problema 218
 <img width="734" alt="621" src="screenshots/218.png">
@@ -49,6 +65,9 @@ Usa a técnica de dividir e conquistar para ordenar o array enquanto conta os pa
 
 - Problema 493
 <img width="734" alt="621" src="screenshots/493.png">
+
+- Problema 912
+<img width="734" alt="621" src="screenshots/912.png">
 
 ## Instalação 
 
